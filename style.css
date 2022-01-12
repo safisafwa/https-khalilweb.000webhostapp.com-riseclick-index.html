@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.button:hover {
+  background-color: #F30; /* Green */
+  color: #F30;
+}
+
+ul{list-style-type:none; background-color:#00C;; overflow:hidden; padding:10px; }
+li a{text-decoration: none; color:#FFF; padding: 30px; display: block}
+li {float: left}
+li a:hover{background-color: #06F; color:#F00 }
+
+table{width:100%}
+caption{background-color:#00F; color:#FFF; width:99%}
+th{background-color:#666; color:#FFF}
+td{text-align:center; padding:8px}
+tr:nth-child(even){background-color:#CCC}
+tr:nth-child(odd){background-color:#CCC}
+tr:hover{background-color:#666}
